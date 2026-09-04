@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.csv
+*.h5
+*.keras
+venv/
+.venv/
+.DS_Store
