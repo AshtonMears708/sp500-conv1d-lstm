@@ -40,7 +40,7 @@ Dense(1)
   saved model is the best epoch rather than the last.
 - Dropout at 0.2 after each LSTM plus L2 on the first, against a small dataset and a model
   that will happily memorize it.
-- Trained on 2x NVIDIA T4 (Kaggle).
+- Trained on 2× NVIDIA T4 GPUs (Kaggle).
 
 ## Results
 
@@ -67,9 +67,9 @@ metrics are computed, so these are in dollars, not scaled units.
 ```
 notebooks/sp500-conv1d-lstm.ipynb    Main model and results
 notebooks/amzn-conv1d-lstm.ipynb     Same architecture on AMZN
-notebooks/baseline-experiments.ipynb Earlier configuration
+notebooks/earlier-config-window120.ipynb  Earlier run, 120-day window
 ```
 
 ## Credits
 
-Team project with **Wyatt** and **Kai Maggard**.
+Team project with **Wyatt** and **Kai**.
