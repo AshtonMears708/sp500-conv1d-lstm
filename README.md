@@ -65,9 +65,8 @@ metrics are computed, so these are in dollars, not scaled units.
 ## Layout
 
 ```
-notebooks/sp500-conv1d-lstm.ipynb    Main model and results
-notebooks/amzn-conv1d-lstm.ipynb     Same architecture on AMZN
-notebooks/earlier-config-window120.ipynb  Earlier run, 120-day window
+notebooks/sp500-conv1d-lstm.ipynb  Main model and results
+notebooks/amzn-conv1d-lstm.ipynb   Same architecture on AMZN
 ```
 
 ## Credits
